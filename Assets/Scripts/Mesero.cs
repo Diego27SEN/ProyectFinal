@@ -50,25 +50,13 @@ public class Mesero : MonoBehaviour
         transform.position += (Vector3)moveInput * moveSpeed * Time.deltaTime;
         Cooldawn();
         contador += Time.deltaTime;
-        contador = Mathf.Min(contador, 10f);
+        contador = Mathf.Min(contador, 40f);
     }
 
     private void OnTriggerStay2D(Collider2D collision)
     {
 
     }
-
-    public void TakeDamage(int damage, Vector3 origin)
-    {
-        PlayerHp = Math.Max(0, PlayerHp - damage);
-
-        Vector2 knockBackDir = (transform.position - origin).normalized;
-
-        rb.AddForce(knockBackDir * KnockbackForce, ForceMode2D.Impulse);
-
-        print("Le sirvo comida al cliente");
-    }
-
     public void TakeDamage(int damage)
     {
         throw new NotImplementedException();
@@ -77,7 +65,7 @@ public class Mesero : MonoBehaviour
     public void Cooldawn()
     {
 
-        if (contador >= 10f && moveSpeed == 2)
+        if (contador >= 40f && moveSpeed == 2)
         {
             moveSpeed++;
             contador = 0;
