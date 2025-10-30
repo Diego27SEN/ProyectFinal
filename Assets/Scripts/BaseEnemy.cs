@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class MainEnemy : MonoBehaviour
+public class BaseEnemy : MonoBehaviour
 {
     [SerializeField] protected float speed = 4;
     [SerializeField] protected int range;

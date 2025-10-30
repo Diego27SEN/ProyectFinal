@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class MainNPC : MonoBehaviour
+public class BaseNPC : MonoBehaviour
 {
     [SerializeField] protected int ID;
     [SerializeField] protected float Speed;

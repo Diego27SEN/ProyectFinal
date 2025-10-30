@@ -5,10 +5,10 @@ public class SpawnEnemie : MonoBehaviour
 {
     public GameObject Mesero;
     public GameObject EnemyPrefab;
-    public float timeToSpawn;
+    private float timeToSpawn;
     private float currentTime;
-    public float radius;
-    public List<Transform> spawnPosition;
+    private float radius;
+    private List<Transform> spawnPosition;
 
     public void Update()
     {
@@ -36,7 +36,7 @@ public class SpawnEnemie : MonoBehaviour
         GameObject enemigo = Instantiate(EnemyPrefab, randomDirInAnlgeMagnitude, Quaternion.identity);// Instancia el enemigo en la posicion calculada
 
         // Asigna el Mesero al enemigo instanciado
-        Enemie scriptEnemigo = enemigo.GetComponent<Enemie>(); // Obtiene el script Enemie del enemigo instanciado
+        Enemy scriptEnemigo = enemigo.GetComponent<Enemy>(); // Obtiene el script Enemie del enemigo instanciado
         if (scriptEnemigo != null)// Verifica que el script no sea nulo
         {
             scriptEnemigo.Mesero = Mesero;// Asigna el Mesero al script del enemigo

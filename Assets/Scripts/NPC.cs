@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class NPC : MainNPC
+public class NPC : BaseNPC
 {
     public void OnTriggerEnter2D(Collider2D collision)
     {
