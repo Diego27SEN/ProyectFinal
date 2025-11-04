@@ -1,14 +1,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnEnemie : MonoBehaviour
+public class SpawnEnemy : MonoBehaviour
 {
     public GameObject Mesero;
     public GameObject EnemyPrefab;
-    private float timeToSpawn;
-    private float currentTime;
-    private float radius;
-    private List<Transform> spawnPosition;
+    [SerializeField] private float timeToSpawn;
+    [SerializeField] private float currentTime;
+    [SerializeField] private float radius;
+    [SerializeField] private List<Transform> spawnPosition;
 
     public void Update()
     {

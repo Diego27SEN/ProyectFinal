@@ -1,7 +1,7 @@
 using UnityEngine;
 using static UnityEngine.RuleTile.TilingRuleOutput;
 
-public class Enemy : BaseEnemy
+public class Enemy : MainEnemy
 {
     private float moveSpeed = 2f;
     public float MoveSpeed

@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class Mesero : BaseMesero
+public class Mesero : MainMesero
 {
 
 

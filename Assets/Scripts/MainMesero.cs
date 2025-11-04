@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class BaseMesero : MonoBehaviour
+public class MainMesero : MonoBehaviour
 {
     public InputSystem_Actions inputs;
     public Rigidbody2D rb;
