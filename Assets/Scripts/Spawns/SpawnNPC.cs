@@ -24,12 +24,12 @@ public class SpawnNPC : MonoBehaviour
     public void SpawnNPCInstance()
     {
         print("NPC Invocado");
-        GameObject npc = Instantiate(NPCPrefab, transform.position, Quaternion.identity);
+        GameObject npc = Instantiate(NPCPrefab, transform.position, Quaternion.identity); 
 
         NPC npcScript = npc.GetComponent<NPC>();
         if (npcScript != null && puntosB.Length > 0)
         {
-            npcScript.PUNTOB = puntosB[indicePunto % puntosB.Length];
+            npcScript.PUNTOB = puntosB[indicePunto % puntosB.Length]; 
             indicePunto++;
         }
     }
