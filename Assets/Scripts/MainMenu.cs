@@ -3,6 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+    public GameManager gameManager;
     public GameObject optionsMenu;
     public GameObject mainMenu;
 
@@ -18,14 +19,14 @@ public class MainMenu : MonoBehaviour
         optionsMenu.SetActive(false);
     }
 
+    public void PlayGame()
+    {
+        gameManager.StartGame();
+    }
 
     public void QuitGame()
     {
         Application.Quit();
     }
 
-    public void PlayGame()
-    {
-        SceneManager.LoadScene("Restaurante");
-    }
 }

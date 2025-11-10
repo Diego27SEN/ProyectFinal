@@ -8,10 +8,11 @@ public class GameManager : MonoBehaviour
     public enum GameState { None, Start, Playing, Win, Lose }
     public GameState state = GameState.Start;
 
-    public GameObject MainMenu;
+    public GameObject mainMenu;
+    public GameObject optionsMenu;
     public GameObject gameUI;
-    public GameObject WinScreen;
-    public GameObject GameOver;
+    public GameObject winScreen;
+    public GameObject loseScreen;
 
     void Start()
     {
@@ -26,16 +27,17 @@ public class GameManager : MonoBehaviour
 
     void UpdateGameState()
     {
-        // Oculta todo al inicio
-        MainMenu.SetActive(false);
+        mainMenu.SetActive(false);
+        optionsMenu.SetActive(false);
         gameUI.SetActive(false);
-        WinScreen.SetActive(false);
-        GameOver.SetActive(false);
+        winScreen.SetActive(false);
+        loseScreen.SetActive(false);
+
 
         switch (state)
         {
             case GameState.Start:
-                MainMenu.SetActive(true);
+                mainMenu.SetActive(true);
                 break;
 
             case GameState.Playing:
@@ -43,33 +45,30 @@ public class GameManager : MonoBehaviour
                 break;
 
             case GameState.Win:
-                WinScreen.SetActive(true);
+                winScreen.SetActive(true);
                 break;
 
             case GameState.Lose:
-                GameOver.SetActive(true);
+                loseScreen.SetActive(true);
                 break;
         }
     }
 
-    // Ejemplo de botones
-    public void PlayGame()
+    //  botones
+    public void StartGame()
     {
         SetGameState(GameState.Playing);
     }
-
+    public void OpenMenu()
+    {
+        SetGameState(GameState.Start);
+    }
     public void WinGame()
     {
         SetGameState(GameState.Win);
     }
-
     public void LoseGame()
     {
         SetGameState(GameState.Lose);
-    }
-
-    public void ReturnToMenu()
-    {
-        SetGameState(GameState.Start);
     }
 }
