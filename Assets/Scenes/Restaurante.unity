@@ -1522,7 +1522,17 @@ MonoBehaviour:
   NPCPrefab: {fileID: 2909726400951426587, guid: 47df4f416d23b9444acb560817836c4b, type: 3}
   timeToSpawn: 10
   currentTime: 10
-  puntosB: []
+  todasLasSillas:
+  - {fileID: 1450778402}
+  - {fileID: 999434167}
+  - {fileID: 285370235}
+  - {fileID: 1234955320}
+  - {fileID: 771267824}
+  - {fileID: 772836223}
+  - {fileID: 421018414}
+  - {fileID: 1582778886}
+  - {fileID: 841365947}
+  - {fileID: 1893268717}
 --- !u!4 &1450778402
 Transform:
   m_ObjectHideFlags: 0
@@ -1944,8 +1954,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Mesero: {fileID: 1547403279}
   EnemyPrefab: {fileID: 6938851609706430507, guid: 5975f90d58f28dd4e89c2495b8d94feb, type: 3}
-  timeToSpawn: 10
-  currentTime: 5
+  timeToSpawn: 60
+  currentTime: 60
   radius: 10
   spawnPosition: []
 --- !u!4 &1772504566
@@ -2023,7 +2033,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -5
   m_Sprite: {fileID: 44324130981857345, guid: 835cf91d9c97c8b43a333f563eb6507c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2186,37 +2196,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8184482865002424088, guid: d14d279b28ff9854dade5f577825aa1f, type: 3}
   m_PrefabInstance: {fileID: 1893268716}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1933574215
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1933574216}
-  m_Layer: 0
-  m_Name: GameManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1933574216
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1933574215}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.9395053, y: 1.569836, z: 0.03810628}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1984641557 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5631344498590250746, guid: 83642995531e52a4d9f30b5bc8c52d9d, type: 3}
@@ -2498,4 +2477,3 @@ SceneRoots:
   - {fileID: 1206196183}
   - {fileID: 996361568}
   - {fileID: 5907875492635965307}
-  - {fileID: 1933574216}

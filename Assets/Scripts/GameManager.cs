@@ -1,10 +1,22 @@
+using NUnit.Framework;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public float ContadorPuntos;
     public float cooldown;
-
+    public float ReputacionTotal;
+    public float PropinasTotales;
+    List<string> Comidas = new List<string>()
+    {
+        "Hamburguesa",
+        "Pizza",
+        "Ensalada",
+        "Sushi",
+        "Tacos"
+    };
+ 
     public enum GameState { None, Start, Playing, Win, Lose }
     public GameState state = GameState.Start;
 
