@@ -54,7 +54,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    // botontes UI
+    //  botones
     public void StartGame()
     {
         SetGameState(GameState.Playing);
