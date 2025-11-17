@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -3342861382862782863}
   m_Layer: 0
   m_Name: NPC
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -137,7 +137,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb3eae2abd0ebeb46b56c2f55300951d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ID: 0
+  nivel: 0
+  Reputacion: 0
   speed: 2
   Contador: 0
   llegoAlPuntoA: 0
