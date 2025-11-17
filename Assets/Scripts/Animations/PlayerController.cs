@@ -1,16 +1,31 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
-public class playerController : MonoBehaviour
+
+[RequireComponent(typeof(PlayerInputs))]
+public class PlayerController : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public static PlayerController Instance;
+
+    public PlayerInputs InputManager;
+    public PlayerMovement playerMovement;
+
+    private void Awake()
+    {
+        if (Instance == null)
+            Instance = this;
+
+        InputManager = GetComponent<PlayerInputs>();
+        playerMovement = GetComponent<PlayerMovement>();
+    }
     void Start()
     {
-        
+        // InputManager = GetComponent<PlayerInputs>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
