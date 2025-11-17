@@ -1,0 +1,1365 @@
+fileFormatVersion: 2
+guid: 5004333c70fb7d84c9573d7fc683303f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5691665307105834138
+    second: mesero_waiter_bandeja_0
+  - first:
+      213: 6662042020116715140
+    second: mesero_waiter_bandeja_1
+  - first:
+      213: 685356424678606733
+    second: mesero_waiter_bandeja_2
+  - first:
+      213: -8090852164472115001
+    second: mesero_waiter_bandeja_3
+  - first:
+      213: -6285297380579498129
+    second: mesero_waiter_bandeja_4
+  - first:
+      213: -8015659991523814960
+    second: mesero_waiter_bandeja_5
+  - first:
+      213: 2652246463190121922
+    second: mesero_waiter_bandeja_6
+  - first:
+      213: 1705758419600308721
+    second: mesero_waiter_bandeja_7
+  - first:
+      213: 5919916961629961012
+    second: mesero_waiter_bandeja_8
+  - first:
+      213: 1692683256253201594
+    second: mesero_waiter_bandeja_9
+  - first:
+      213: -693428104708651507
+    second: mesero_waiter_bandeja_10
+  - first:
+      213: 1835415119030171036
+    second: mesero_waiter_bandeja_11
+  - first:
+      213: 1324343636697393548
+    second: mesero_waiter_bandeja_12
+  - first:
+      213: 8857988639095996576
+    second: mesero_waiter_bandeja_13
+  - first:
+      213: 2152617527212072608
+    second: mesero_waiter_bandeja_14
+  - first:
+      213: 4239852376786841645
+    second: mesero_waiter_bandeja_15
+  - first:
+      213: 7641619848997302265
+    second: mesero_waiter_bandeja_16
+  - first:
+      213: 8775158179714644872
+    second: mesero_waiter_bandeja_17
+  - first:
+      213: 8734445717621273122
+    second: mesero_waiter_bandeja_18
+  - first:
+      213: -1620841150052521290
+    second: mesero_waiter_bandeja_19
+  - first:
+      213: 1879168808776883000
+    second: mesero_waiter_bandeja_20
+  - first:
+      213: -7217694753325135335
+    second: mesero_waiter_bandeja_21
+  - first:
+      213: 6402859191269119549
+    second: mesero_waiter_bandeja_22
+  - first:
+      213: -2636346580268419104
+    second: mesero_waiter_bandeja_23
+  - first:
+      213: 3950941642415065146
+    second: mesero_waiter_bandeja_24
+  - first:
+      213: -8874168261586763211
+    second: mesero_waiter_bandeja_25
+  - first:
+      213: -6766009264791829044
+    second: mesero_waiter_bandeja_26
+  - first:
+      213: 1829870486071346433
+    second: mesero_waiter_bandeja_27
+  - first:
+      213: -140549300175654313
+    second: mesero_waiter_bandeja_28
+  - first:
+      213: 4001991606275085570
+    second: mesero_waiter_bandeja_29
+  - first:
+      213: 622835311665662208
+    second: mesero_waiter_bandeja_30
+  - first:
+      213: 7146185665981030251
+    second: mesero_waiter_bandeja_31
+  - first:
+      213: 5100173325893143464
+    second: mesero_waiter_bandeja_32
+  - first:
+      213: -7760393095603873764
+    second: mesero_waiter_bandeja_33
+  - first:
+      213: 3264384139143622067
+    second: mesero_waiter_bandeja_34
+  - first:
+      213: -282721036195113231
+    second: mesero_waiter_bandeja_35
+  - first:
+      213: 5742586884345051636
+    second: mesero_waiter_bandeja_36
+  - first:
+      213: -5683214697824493402
+    second: mesero_waiter_bandeja_37
+  - first:
+      213: -5680720783874908892
+    second: mesero_waiter_bandeja_38
+  - first:
+      213: -4865508575541756300
+    second: mesero_waiter_bandeja_39
+  - first:
+      213: 4383559231525574114
+    second: mesero_waiter_bandeja_40
+  - first:
+      213: 8122875297492408335
+    second: mesero_waiter_bandeja_41
+  - first:
+      213: -3728466875741524938
+    second: mesero_waiter_bandeja_42
+  - first:
+      213: 7965315022163654253
+    second: mesero_waiter_bandeja_43
+  - first:
+      213: -2404308352950664867
+    second: mesero_waiter_bandeja_44
+  - first:
+      213: 547358502271237214
+    second: mesero_waiter_bandeja_45
+  - first:
+      213: 6063982015122489710
+    second: mesero_waiter_bandeja_46
+  - first:
+      213: -1657135650861496455
+    second: mesero_waiter_bandeja_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mesero_waiter_bandeja_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 341
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a94357ae07bdcfe40800000000000000
+      internalID: 5691665307105834138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mesero_waiter_bandeja_1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 341
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48658c79be3547c50800000000000000
+      internalID: 6662042020116715140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mesero_waiter_bandeja_2
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 341
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d87008d7900e28900800000000000000
+      internalID: 685356424678606733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mesero_waiter_bandeja_3
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 341
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c07076d2d487bf80800000000000000
+      internalID: -8090852164472115001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mesero_waiter_bandeja_4
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 341
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f67add2555326c8a0800000000000000
+      internalID: -6285297380579498129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mesero_waiter_bandeja_5
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 341
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d199ecd4b7a2c090800000000000000
+      internalID: -8015659991523814960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mesero_waiter_bandeja_6
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 341
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cdbb372b1caec420800000000000000
+      internalID: 2652246463190121922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mesero_waiter_bandeja_7
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 341
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f978e0ce321ca710800000000000000
+      internalID: 1705758419600308721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mesero_waiter_bandeja_8
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 276
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43b73cd8c15c72250800000000000000
+      internalID: 5919916961629961012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mesero_waiter_bandeja_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 276
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abc393e047e9d7710800000000000000
+      internalID: 1692683256253201594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mesero_waiter_bandeja_10
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 276
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d06819d00d27066f0800000000000000
+      internalID: -693428104708651507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mesero_waiter_bandeja_11
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 276
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c95bc298354b87910800000000000000
+      internalID: 1835415119030171036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mesero_waiter_bandeja_12
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 261
+        width: 14
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c89a5e95583016210800000000000000
+      internalID: 1324343636697393548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mesero_waiter_bandeja_13
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 276
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a043c15cb5edea70800000000000000
+      internalID: 8857988639095996576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mesero_waiter_bandeja_14
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 276
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ae51c66c32afdd10800000000000000
+      internalID: 2152617527212072608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mesero_waiter_bandeja_15
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 276
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d20b972e54bf6da30800000000000000
+      internalID: 4239852376786841645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mesero_waiter_bandeja_16
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 212
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ffee0004cc7c0a60800000000000000
+      internalID: 7641619848997302265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mesero_waiter_bandeja_17
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 212
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88b31c52fdf97c970800000000000000
+      internalID: 8775158179714644872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mesero_waiter_bandeja_18
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 212
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2227fb46a1cf63970800000000000000
+      internalID: 8734445717621273122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mesero_waiter_bandeja_19
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 212
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6baa8c5cf8d9189e0800000000000000
+      internalID: -1620841150052521290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mesero_waiter_bandeja_20
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 212
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83bd3284316241a10800000000000000
+      internalID: 1879168808776883000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mesero_waiter_bandeja_21
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 212
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91acad2ecd895db90800000000000000
+      internalID: -7217694753325135335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mesero_waiter_bandeja_22
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 212
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d36d07ab2868bd850800000000000000
+      internalID: 6402859191269119549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mesero_waiter_bandeja_23
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 212
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e7f842d0c0d96bd0800000000000000
+      internalID: -2636346580268419104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mesero_waiter_bandeja_24
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 149
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a38c274ad7094d630800000000000000
+      internalID: 3950941642415065146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mesero_waiter_bandeja_25
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 149
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5324313cbfe98d480800000000000000
+      internalID: -8874168261586763211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mesero_waiter_bandeja_26
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 149
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc5c419eb6e4a12a0800000000000000
+      internalID: -6766009264791829044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mesero_waiter_bandeja_27
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 149
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10501431381056910800000000000000
+      internalID: 1829870486071346433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mesero_waiter_bandeja_28
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 149
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 752b999f72bac0ef0800000000000000
+      internalID: -140549300175654313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mesero_waiter_bandeja_29
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 149
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2051f16992ee98730800000000000000
+      internalID: 4001991606275085570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mesero_waiter_bandeja_30
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 149
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 009c6618a61c4a800800000000000000
+      internalID: 622835311665662208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mesero_waiter_bandeja_31
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 149
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6f99c7400a5c2360800000000000000
+      internalID: 7146185665981030251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mesero_waiter_bandeja_32
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 84
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ab88c63e9477c640800000000000000
+      internalID: 5100173325893143464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mesero_waiter_bandeja_33
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 84
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c18132b889b8d4490800000000000000
+      internalID: -7760393095603873764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mesero_waiter_bandeja_34
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 84
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bd2310441c6d4d20800000000000000
+      internalID: 3264384139143622067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mesero_waiter_bandeja_35
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 84
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f65f0b27b2931cf0800000000000000
+      internalID: -282721036195113231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mesero_waiter_bandeja_36
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 84
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f934358854c1bf40800000000000000
+      internalID: 5742586884345051636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mesero_waiter_bandeja_37
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 84
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a064e1e75a2121b0800000000000000
+      internalID: -5683214697824493402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mesero_waiter_bandeja_38
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 84
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42d15f87b860a21b0800000000000000
+      internalID: -5680720783874908892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mesero_waiter_bandeja_39
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 84
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47e7737aabd3a7cb0800000000000000
+      internalID: -4865508575541756300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mesero_waiter_bandeja_40
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 20
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e557fe55e785dc30800000000000000
+      internalID: 4383559231525574114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mesero_waiter_bandeja_41
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 20
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0894d5db004ab070800000000000000
+      internalID: 8122875297492408335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mesero_waiter_bandeja_42
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 20
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63cad9a7123d14cc0800000000000000
+      internalID: -3728466875741524938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mesero_waiter_bandeja_43
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 20
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d66b5248fcb7a8e60800000000000000
+      internalID: 7965315022163654253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mesero_waiter_bandeja_44
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 20
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d510fd3aa4e22aed0800000000000000
+      internalID: -2404308352950664867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mesero_waiter_bandeja_45
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 20
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5cbaa468ab989700800000000000000
+      internalID: 547358502271237214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mesero_waiter_bandeja_46
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 20
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e61cbbfa387972450800000000000000
+      internalID: 6063982015122489710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mesero_waiter_bandeja_47
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 20
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 977c3c9c7eba009e0800000000000000
+      internalID: -1657135650861496455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      mesero_waiter_bandeja_0: 5691665307105834138
+      mesero_waiter_bandeja_1: 6662042020116715140
+      mesero_waiter_bandeja_10: -693428104708651507
+      mesero_waiter_bandeja_11: 1835415119030171036
+      mesero_waiter_bandeja_12: 1324343636697393548
+      mesero_waiter_bandeja_13: 8857988639095996576
+      mesero_waiter_bandeja_14: 2152617527212072608
+      mesero_waiter_bandeja_15: 4239852376786841645
+      mesero_waiter_bandeja_16: 7641619848997302265
+      mesero_waiter_bandeja_17: 8775158179714644872
+      mesero_waiter_bandeja_18: 8734445717621273122
+      mesero_waiter_bandeja_19: -1620841150052521290
+      mesero_waiter_bandeja_2: 685356424678606733
+      mesero_waiter_bandeja_20: 1879168808776883000
+      mesero_waiter_bandeja_21: -7217694753325135335
+      mesero_waiter_bandeja_22: 6402859191269119549
+      mesero_waiter_bandeja_23: -2636346580268419104
+      mesero_waiter_bandeja_24: 3950941642415065146
+      mesero_waiter_bandeja_25: -8874168261586763211
+      mesero_waiter_bandeja_26: -6766009264791829044
+      mesero_waiter_bandeja_27: 1829870486071346433
+      mesero_waiter_bandeja_28: -140549300175654313
+      mesero_waiter_bandeja_29: 4001991606275085570
+      mesero_waiter_bandeja_3: -8090852164472115001
+      mesero_waiter_bandeja_30: 622835311665662208
+      mesero_waiter_bandeja_31: 7146185665981030251
+      mesero_waiter_bandeja_32: 5100173325893143464
+      mesero_waiter_bandeja_33: -7760393095603873764
+      mesero_waiter_bandeja_34: 3264384139143622067
+      mesero_waiter_bandeja_35: -282721036195113231
+      mesero_waiter_bandeja_36: 5742586884345051636
+      mesero_waiter_bandeja_37: -5683214697824493402
+      mesero_waiter_bandeja_38: -5680720783874908892
+      mesero_waiter_bandeja_39: -4865508575541756300
+      mesero_waiter_bandeja_4: -6285297380579498129
+      mesero_waiter_bandeja_40: 4383559231525574114
+      mesero_waiter_bandeja_41: 8122875297492408335
+      mesero_waiter_bandeja_42: -3728466875741524938
+      mesero_waiter_bandeja_43: 7965315022163654253
+      mesero_waiter_bandeja_44: -2404308352950664867
+      mesero_waiter_bandeja_45: 547358502271237214
+      mesero_waiter_bandeja_46: 6063982015122489710
+      mesero_waiter_bandeja_47: -1657135650861496455
+      mesero_waiter_bandeja_5: -8015659991523814960
+      mesero_waiter_bandeja_6: 2652246463190121922
+      mesero_waiter_bandeja_7: 1705758419600308721
+      mesero_waiter_bandeja_8: 5919916961629961012
+      mesero_waiter_bandeja_9: 1692683256253201594
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
