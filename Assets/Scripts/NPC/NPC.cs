@@ -5,7 +5,7 @@ public class NPC : MainNPC
     public Transform PUNTOA;
     public Transform PUNTOB;
     private float distanciaMinima = 0.1f;
-    private int ultimoNivelMostrado = 0; 
+    private int ultimoNivelMostrado = 0; // Guarda el último nivel mostrado
 
     void Update()
     {
@@ -59,7 +59,6 @@ public class NPC : MainNPC
     }
     private void GestionContador()
     {
-
         Contador += Time.deltaTime;
         Contador = Mathf.Min(Contador, 60f);
     }
@@ -82,17 +81,12 @@ public class NPC : MainNPC
             {
                 case 1:
                     print("Reputacion: Feliz");
-                    Reputacion = 100;
                     break;
                 case 2:
                     print("Reputacion: Media");
-                    Reputacion = 50;
-
                     break;
                 case 3:
                     print("Reputacion: Baja");
-                    Reputacion = 10;
-
                     break;
             }
             ultimoNivelMostrado = nivel; // Actualiza el nivel mostrado
