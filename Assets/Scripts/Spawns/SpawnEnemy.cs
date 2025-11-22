@@ -39,7 +39,7 @@ public class SpawnEnemy : MonoBehaviour
         Enemy scriptEnemigo = enemigo.GetComponent<Enemy>(); // Obtiene el script Enemie del enemigo instanciado
         if (scriptEnemigo != null)// Verifica que el script no sea nulo
         {
-            scriptEnemigo.Mesero = Mesero;// Asigna el Mesero al script del enemigo
+            scriptEnemigo.ControllerMesero = Mesero;// Asigna el Mesero al script del enemigo
         }
     }
 }

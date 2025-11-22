@@ -1,21 +1,16 @@
 using UnityEngine;
 using static UnityEngine.RuleTile.TilingRuleOutput;
 
-public class Enemy : MainEnemy
+public class Enemy : MainEnemy, IEnemyEffect
 {
-    private float moveSpeed = 2f;
-    public float MoveSpeed
-    {
-        get => moveSpeed;
-        set => moveSpeed = value;
-    }
-    public GameObject Mesero;
+    public GameObject ControllerMesero;
+
     public void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            Mesero.GetComponent<Mesero>().MoveSpeed -= 1;
-            Destroy(gameObject);
+            colission = true;
+            ApplyDebuff();
         }
 
     }
@@ -23,7 +18,7 @@ public class Enemy : MainEnemy
 
     public void MotionEnemy()
     {
-        Vector3 dir = (Mesero.transform.position - transform.position).normalized; //: Calcular la direccion desde el enemigo hacia el jugador
+        Vector3 dir = (ControllerMesero.transform.position - transform.position).normalized; //: Calcular la direccion desde el enemigo hacia el jugador
         transform.position += dir * speed * Time.deltaTime; //: Mover el enemigo hacia el jugador
     }
     public void Update()
@@ -31,4 +26,12 @@ public class Enemy : MainEnemy
         MotionEnemy();
     }
 
+    public void ApplyDebuff()
+    {
+        if(colission == true)
+        {
+            ControllerMesero.GetComponent<ControllerMesero>().MoveSpeed -= 1;
+            Destroy(gameObject);
+        }
+    }
 }
