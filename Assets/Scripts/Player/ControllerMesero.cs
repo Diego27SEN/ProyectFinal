@@ -17,8 +17,6 @@ public class ControllerMesero : MonoBehaviour
 
     [SerializeField] private string platoListoParaEntregar = "";
 
-    private Reputation reputationSystem;
-
     public float MoveSpeed
     {
         get => moveSpeed;
@@ -28,10 +26,6 @@ public class ControllerMesero : MonoBehaviour
     private void Awake()
     {
         inputs = new InputSystem_Actions();
-        // Busca el objeto GameManager y obtiene el componente Reputation
-        var gm = GameObject.Find("GameManager");
-        if (gm != null)
-            reputationSystem = gm.GetComponent<Reputation>();
     }
 
     private void OnEnable()
@@ -123,15 +117,10 @@ public class ControllerMesero : MonoBehaviour
                 if (npc != null && platoListoParaEntregar == npc.PedidoActual && !npc.PedidoEntregado)
                 {
                     npc.PedidoEntregado = true;
-                    npc.GetComponent<ControllerNPC>().RecibioComida = true;
+                    npc.GetComponent<ControllerNPC>().RecibioComida = true; // Activa la salida
                     Debug.Log("Pedido entregado al NPC: " + platoListoParaEntregar);
-
-                    // Actualiza la reputación global usando la reputación del NPC
-                    if (reputationSystem != null)
-                        reputationSystem.AddReputation(npc.Reputacion);
-
-                    platoListoParaEntregar = "";
-                    pedidoActualMesero = "";
+                    platoListoParaEntregar = ""; // Limpia el plato entregado
+                    pedidoActualMesero = "";     // Limpia el pedido pendiente del mesero
                 }
             }
         }
