@@ -12,11 +12,11 @@ public interface IEnemyEffect
 {
     void ApplyDebuff();
 }
-public interface IAddFood
-{
-    public void AddFood(string food);
-}
 public interface IDeliverFood
 {
     public void deliverFood(string pedido);
+}
+public interface IGestionCronometro
+{
+    public void GestionCronometro();
 }
