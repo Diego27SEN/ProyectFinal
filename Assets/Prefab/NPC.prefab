@@ -11,10 +11,11 @@ GameObject:
   - component: {fileID: 3404853140582099723}
   - component: {fileID: 7485963009615464592}
   - component: {fileID: 4594733344631868825}
-  - component: {fileID: -3342861382862782863}
+  - component: {fileID: -1122872562576238282}
+  - component: {fileID: 4040516042015318074}
   m_Layer: 0
   m_Name: NPC
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -79,7 +80,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 0.0309604, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -125,7 +126,7 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.5
---- !u!114 &-3342861382862782863
+--- !u!114 &-1122872562576238282
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -137,11 +138,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb3eae2abd0ebeb46b56c2f55300951d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ID: 0
-  speed: 2
+  nivel: 0
+  Reputacion: 0
+  speed: 0
   Contador: 0
   llegoAlPuntoA: 0
   llegoAlPuntoB: 0
-  entregaPedido: 0
+  llegoAlPuntoFinal: 0
+  gameManager: {fileID: 0}
+  foodList: {fileID: 11400000, guid: d436635d6c995fa4598bb207830348c0, type: 2}
+--- !u!114 &4040516042015318074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2909726400951426587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 101239869f9b8b64e9c39b569abe0c48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   PUNTOA: {fileID: 1308115051511124005, guid: 8655f7d9675765f419ed908562853fa6, type: 3}
   PUNTOB: {fileID: 8184482865002424088, guid: d14d279b28ff9854dade5f577825aa1f, type: 3}
+  PUNTOFinal: {fileID: 4302793090071214177, guid: 1e62fbaae6fd6df44a07908b7081cb38, type: 3}
+  speed: 2

@@ -23,14 +23,17 @@ public class SpawnNPC : MonoBehaviour
     }
     public void SpawnNPCInstance()
     {
-        print("NPC Invocado");
         GameObject npc = Instantiate(NPCPrefab, transform.position, Quaternion.identity); 
 
-        NPC npcScript = npc.GetComponent<NPC>();
+        ControllerNPC npcScript = npc.GetComponent<ControllerNPC>();
         if (npcScript != null && puntosB.Length > 0)
         {
-            npcScript.PUNTOB = puntosB[indicePunto % puntosB.Length]; 
+            npcScript.PUNTOB = puntosB[indicePunto % puntosB.Length]; // Asignar el punto B correspondiente
             indicePunto++;
         }
+    }
+    public void ShowDialog()
+    {
+        GameManager.Instance.dialogSystemUI.ShowDialog("Textito");
     }
 }

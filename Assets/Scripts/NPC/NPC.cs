@@ -1,67 +1,48 @@
 using UnityEngine;
+using TMPro;
 
 public class NPC : MainNPC
 {
-    public Transform PUNTOA;
-    public Transform PUNTOB;
-    private float distanciaMinima = 0.1f;
+    public GameManager gameManager;
+    public FoodList foodList;
+    private string pedidoActual;
     private int ultimoNivelMostrado = 0; // Guarda el último nivel mostrado
+    private bool pedidoEntregado = false;
+    public string PedidoActual
+    {
+        get { return pedidoActual; }
+        set { pedidoActual = value; }
+    }
+    public bool PedidoEntregado
+    {
+        get { return pedidoEntregado; }
+        set { pedidoEntregado = value; }
+    }
+    void Start()
+    {
+        GenerarPedido();
+    }
 
     void Update()
     {
-        accionMovimiento();
         ActualizarNivelPorReputacion();
     }
-    private void accionMovimiento()
-    {
-        if (!llegoAlPuntoA && PUNTOA != null)
-        {
-            MoverHaciaPuntoA();
-        }
-        else if (!llegoAlPuntoB && llegoAlPuntoA && PUNTOA != null)
-        {
-            MoverHaciaPuntoB();
-        }
-        else if (llegoAlPuntoA && llegoAlPuntoB && !entregaPedido)
-        {
-            EntregarPedido();
-        }
-    }
-    private void MoverHaciaPuntoA()
-    {
-        Vector3 direccionA = (PUNTOA.position - transform.position).normalized; 
-        float distancia = Vector3.Distance(transform.position, PUNTOA.position); 
 
-        if (distancia > distanciaMinima)
-        {
-            transform.position += direccionA * speed * Time.deltaTime;
-        }
-        else
-        {
-            llegoAlPuntoA = true;
-            //print("Llego al punto A");
-        }
-    }
-    private void MoverHaciaPuntoB()
+    public override void GenerarPedido()
     {
-        Vector3 direccionB = (PUNTOB.position - transform.position).normalized;
-        float distancia = Vector3.Distance(transform.position, PUNTOB.position);
-        if (distancia > distanciaMinima)
+        if (foodList != null && foodList.Foods.Count > 0)
         {
-            transform.position += direccionB * speed * Time.deltaTime;
-        }
-        else
-        {
-            llegoAlPuntoB = true;
-            
-            //print("Llego al punto B");
+            int index = Random.Range(0, foodList.Foods.Count);
+            pedidoActual = foodList.Foods[index];
         }
     }
+
     private void GestionContador()
     {
         Contador += Time.deltaTime;
         Contador = Mathf.Min(Contador, 60f);
     }
+
     private void ActualizarNivelPorReputacion()
     {
         if (Contador <= 20f)
@@ -73,31 +54,27 @@ public class NPC : MainNPC
         GestionarPorNivel();
         GestionContador();
     }
+
     private void GestionarPorNivel()
     {
-        if (nivel != ultimoNivelMostrado) // Solo actualiza si el nivel ha cambiado
+        if (nivel != ultimoNivelMostrado)
         {
             switch (nivel)
             {
                 case 1:
-                    print("Reputacion: Feliz");
+                    //Debug.Log("Reputacion: Feliz");
+                    Reputacion = 100;
                     break;
                 case 2:
-                    print("Reputacion: Media");
+                    //Debug.Log("Reputacion: Media");
+                    Reputacion = 50;
                     break;
                 case 3:
-                    print("Reputacion: Baja");
+                    //Debug.Log("Reputacion: Baja");
+                    Reputacion = 10;
                     break;
             }
-            ultimoNivelMostrado = nivel; // Actualiza el nivel mostrado
+            ultimoNivelMostrado = nivel;
         }
     }
-
-    private void EntregarPedido()
-    {
-        entregaPedido = true;
-        //print("Pedido entregado por el NPC.");
-
-    }
 }
-

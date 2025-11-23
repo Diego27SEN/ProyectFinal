@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class MainNPC : MonoBehaviour
+public abstract class MainNPC : MonoBehaviour
 {
     [SerializeField] protected int nivel;
     [SerializeField] protected float Reputacion;
@@ -8,5 +8,6 @@ public class MainNPC : MonoBehaviour
     [SerializeField] protected float Contador;
     [SerializeField] protected bool llegoAlPuntoA = false;
     [SerializeField] protected bool llegoAlPuntoB = false;
-    [SerializeField] protected bool entregaPedido = false;
+    [SerializeField] protected bool llegoAlPuntoFinal = false;
+    public abstract void GenerarPedido();
 }

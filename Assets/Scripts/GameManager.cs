@@ -1,9 +1,9 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
-{
-    public float ContadorPuntos;
-    public float cooldown;
+{public static GameManager Instance;
+    public DialogSystemUI dialogSystemUI;
+    public Reputation reputationSystem;
 
     public enum GameState { None, Start, Playing, Win, Lose }
     public GameState state = GameState.Start;
