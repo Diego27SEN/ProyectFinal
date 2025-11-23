@@ -2,41 +2,32 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float DetectSize = 0.1f;
-    public float Distance = 0.1f;
-    private bool isGrounded;
+    public float moveSpeed = 5f;
 
-    public Transform FeetReference;
+    private Rigidbody2D playerRb;
+    private Vector2 moveInput;
+    private Animator playerAnimator;
 
     void Start()
     {
-
+        playerRb = GetComponent<Rigidbody2D>();
+        playerAnimator = GetComponent<Animator>();
     }
-
 
     void Update()
     {
-        isGrounded = CheckIfGrounded();
+        float moveX = Input.GetAxisRaw("Horizontal");
+        float moveY = Input.GetAxisRaw("Vertical");
+
+        moveInput = new Vector2(moveX, moveY);
+
+        playerAnimator.SetFloat("Horizontal", moveX);
+        playerAnimator.SetFloat("Vertical", moveY);
+        playerAnimator.SetFloat("Speed", moveInput.sqrMagnitude);
     }
 
-    public bool CheckIfGrounded()
+    private void FixedUpdate()
     {
-        Vector2 size = new Vector2(DetectSize, DetectSize);
-        RaycastHit2D[] hitInfos = Physics2D.BoxCastAll(FeetReference.transform.position, size, 0, Vector2.down, Distance);
-
-        foreach (var coll in hitInfos)
-        {
-            GameObject go = coll.collider.gameObject;
-            if (go.tag == "Ground")
-            {
-                print(go.name);
-                return true;
-            }
-        }
-
-        return false;
-
+        playerRb.MovePosition(playerRb.position + moveInput * Time.fixedDeltaTime * moveSpeed);
     }
-
-    public bool IsGrounded => isGrounded;
 }

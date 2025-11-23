@@ -1,7 +1,4 @@
-using System;
-
 using UnityEngine;
-
 
 [RequireComponent(typeof(Animator))]
 [RequireComponent(typeof(SpriteRenderer))]
@@ -9,56 +6,33 @@ public class PlayerAnimation : MonoBehaviour
 {
     public Animator controller;
     public SpriteRenderer sprite;
-
-    public bool IsMoving;
+    private Rigidbody2D rb;
+    private Vector2 moveInput;
 
     private void Awake()
     {
+        rb = GetComponent<Rigidbody2D>();
         controller = GetComponent<Animator>();
         sprite = GetComponent<SpriteRenderer>();
     }
+
     void Start()
     {
-        PlayerController.Instance.
-            InputManager.OnMoveChange
+        PlayerController.Instance
+            .InputManager.OnMoveChange
             += SetMoveAnimation;
-
-        PlayerController.Instance.
-            InputManager.OnJumpPerformed
-            += SetJumpAnimation;
     }
-    private void Update()
+
+    private void SetMoveAnimation(Vector2 move)
     {
-        SetGroundedState();
+        float moveX = Input.GetAxisRaw("Horizontal");
+        float moveY = Input.GetAxisRaw("Vertical");
+
+        moveInput = new Vector2(moveX, moveY);
     }
-    public void SetGroundedState()
+
+    private void FixedUpdate()
     {
-        bool isGrounded = PlayerController.Instance.playerMovement.IsGrounded;
-        controller.SetBool("IsGrounded", isGrounded);
+        rb.MovePosition(rb.position + moveInput * Time.fixedDeltaTime * PlayerController.Instance.playerMovement.moveSpeed);
     }
-    private void SetJumpAnimation()
-    {
-        controller.SetTrigger("OnJump");
-        print("Jump");
-    }
-
-    private void SetMoveAnimation(Vector2 vector)
-    {
-        print(vector);
-
-        if (vector.x != 0)
-            controller.SetBool("isMoving", true);
-        else
-            controller.SetBool("isMoving", false);
-
-        if (vector.x < 0)
-            sprite.flipX = true;
-
-        if (vector.x > 0)
-            sprite.flipX = false;
-    }
-
-
-
-
 }

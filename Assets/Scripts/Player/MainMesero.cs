@@ -20,31 +20,8 @@ public class MainMesero : MonoBehaviour
     {
         inputs = new InputSystem_Actions();
     }
-    private void OnEnable()
-    {
-        inputs.Enable();
-        inputs.Player.Move.started += OnMove;
-        inputs.Player.Move.performed += OnMove;
-        inputs.Player.Move.canceled += OnMove;
-    }
+   
 
-
-
-    private void OnMove(InputAction.CallbackContext context)
-    {
-        moveInput = context.ReadValue<Vector2>();
-    }
-    private void OnDisable()
-    {
-        inputs.Player.Move.started -= OnMove;
-        inputs.Player.Move.performed -= OnMove;
-        inputs.Player.Move.canceled -= OnMove;
-        inputs.Disable();
-    }
-    public void MovePlayer()
-    {
-        transform.position += (Vector3)moveInput * moveSpeed * Time.deltaTime; // Mover el jugador segun la entrada
-    }
     public void Contador()
     {
         contador += Time.deltaTime;

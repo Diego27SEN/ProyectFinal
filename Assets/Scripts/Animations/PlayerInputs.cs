@@ -5,28 +5,40 @@ using UnityEngine.InputSystem;
 public class PlayerInputs : MonoBehaviour
 {
     public InputSystem_Actions inputs;
+
+
     public Action<Vector2> OnMoveChange;
-    public Action OnJumpPerformed;
 
     private Vector2 moveInput;
+
     private void Awake()
     {
-        inputs = new();
+       
+        if (inputs == null)
+            inputs = new InputSystem_Actions();
     }
+
     private void OnEnable()
     {
+    
         inputs.Enable();
+
+  
         inputs.Player.Move.started += OnMove;
         inputs.Player.Move.performed += OnMove;
         inputs.Player.Move.canceled += OnMove;
-
-        inputs.Player.Jump.performed += OnJump;
-
     }
 
-    private void OnJump(InputAction.CallbackContext context)
+    private void OnDisable()
     {
-        OnJumpPerformed?.Invoke();
+        if (inputs != null && inputs.bindingMask != null || inputs != null)
+        {
+            inputs.Player.Move.started -= OnMove;
+            inputs.Player.Move.performed -= OnMove;
+            inputs.Player.Move.canceled -= OnMove;
+        }
+
+        inputs.Disable();
     }
 
     private void OnMove(InputAction.CallbackContext context)
@@ -35,14 +47,6 @@ public class PlayerInputs : MonoBehaviour
         OnMoveChange?.Invoke(moveInput);
     }
 
-    private void OnDisable()
-    {
-        inputs.Disable();
-    }
-
-    void Start()
-    {
-
-    }
+    
     public Vector2 MoveInput => moveInput;
 }

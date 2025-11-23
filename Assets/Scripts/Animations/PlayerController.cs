@@ -19,10 +19,10 @@ public class PlayerController : MonoBehaviour
     }
     void Start()
     {
-        // InputManager = GetComponent<PlayerInputs>();
+        InputManager = GetComponent<PlayerInputs>();
     }
 
-    // Update is called once per frame
+   
     void Update()
     {
 

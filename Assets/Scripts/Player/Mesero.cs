@@ -8,7 +8,6 @@ public class Mesero : MainMesero
 
     void Update()
     {
-        MovePlayer();
         Cooldawn();
         Contador();
     }
